@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Sarala&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Sarala", sans-serif;
+}
+
+body {
+  background-color: #cfc3c3;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  
+}
+
+.border {
+  height: 369px;
+  width: 290px;
+  background: transparent;
+  border-radius: 10px;
+  transition: border 1s;
+  position: relative;
+}
+
+.border:hover {
+  border: 1px solid #f8eeee;
+}
+
+.cards {
+  height: 379px;
+  width: 300px;
+  background: #c2cac3;
+  border-radius: 10px;
+  transition: brackground 0.8s;
+  overflow: hidden;
+  background: #090a09;
+  box-shadow: 0 70px 63px -60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.cards :hover {
+  background: #0e0d0d;
+}
+
+span {
+  position: absolute;
+  margin-left: 20px;
+  height: 150px;
+  width: 200px;
+  color: #f5f5ec;
+  top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards img {
+  display: flex;
+  margin-left: 20px;
+  height: 150px;
+  align-items: center;
+  width: 200px;
+  justify-content: center;
+}

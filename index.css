@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Sarala&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: 100%;
+  font-family: "Sarala", sans-serif;
+  background-color: #cfc3c3;;
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.container {
+  padding: 50px 50px;
+  display: flex;
+  background-color: #faf3f8;
+  flex-grow: 1;
+}
+
+.container1 {
+  position: relative;
+  margin: 1rem;
+  justify-content: center;
+  display: flex;
+  background: linear-gradient(68.15deg, #0f0f0f 16.51%, #4b4442 85.61%);
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  font-family: "Sarala", sans-serif;
+  border-radius: 50px;
+}
+
+.container1 ul {
+  list-style-type: none;
+  padding: 20px;
+}
+
+.container1 a {
+  color: #3cff00;
+  text-decoration: none;
+}
+
+.container1 img {
+  width: 150px;
+  height: 150;
+  border-radius: 50%;
+  border: 5px solid #3cff00;
+  justify-content: center;
+}
+
+nav a:hover {
+  color: #e3eee2;
+}
+
+.container2 {
+  position: relative;
+  margin: 1rem;
+  justify-content: center;
+  display: flex;
+  background: linear-gradient(68.15deg, #222121 16.51%, #464140 85.61%);
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  font-size: 1.2rem;
+  font-family: "Sarala", sans-serif;
+  border-radius: 20px;
+}
+
+.sobreMim h1 {
+  color: #3cff00;
+  padding: 80px;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.redesSociais {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.redesSociais a {
+  color: #ebf3e8;
+  text-decoration: none;
+  margin: 20px;
+}
+.redesSociais p {
+  text-decoration: none;
+  margin-top: 2px;
+}
+.redesSociais img {
+  width: 50px;
+  height: 50px;
+}
+
+nav li {
+  text-align: center;
+  padding: 30px;
+}
+
+p {
+  padding: 15px;
+}
